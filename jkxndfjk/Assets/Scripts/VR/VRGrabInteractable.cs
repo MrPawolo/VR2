@@ -6,6 +6,7 @@ using UnityEngine.Events;
 public class VRGrabInteractable : MonoBehaviour
 {
     [SerializeField]bool hoverable = true;
+    public float distanceDetach = 0.2f;
     public bool Hoverable { get { return hoverable; } set { hoverable = value; } }
 
     [SerializeField] float hoverWeight = 1;
@@ -18,6 +19,7 @@ public class VRGrabInteractable : MonoBehaviour
     Rigidbody myRb;
 
 
+    Transform attachedTrans;
     #region UnityEvents
     public UnityEvent<VRGrabInteractable> onAttachBegin;
     public UnityEvent onAttachEnd;
@@ -29,6 +31,18 @@ public class VRGrabInteractable : MonoBehaviour
     public UnityEvent onObjectDropped;
     #endregion
 
+    public virtual void ProcessFixedUpdate(float _deltaTime)
+    {
+        if (distanceDetach == 0) return;
+        if(handInteractors.Count > 0)
+        {
+            Vector3 controllerPos = handInteractors[0].Controller.transform.position;
+            if (Vector3.Distance(controllerPos, attachedTrans.position) > distanceDetach)
+            {
+                handInteractors[0].TryToDetach();
+            }
+        }
+    }
     public void AddHandInteractor(VRHandInteractor _interactor)
     {
         if (!handInteractors.Contains(_interactor))
@@ -63,6 +77,11 @@ public class VRGrabInteractable : MonoBehaviour
         onAttachEnd?.Invoke();
 
         //attachTransform?.DistableAllHovers();
+        attachedTrans = new GameObject().transform;
+        attachedTrans.position = handInteractor.transform.position;
+        attachedTrans.rotation = handInteractor.transform.rotation;
+        attachedTrans.SetParent(this.transform);
+        attachedTrans.name = "attachedTrans";
 
         
         //EnableAllHovers(false);
@@ -70,7 +89,10 @@ public class VRGrabInteractable : MonoBehaviour
     public virtual void OnDetach(VRHandInteractor handInteractor)
     {
         onDetach?.Invoke();
-        
+        if (attachedTrans)
+        {
+            Destroy(attachedTrans.gameObject);
+        }
         //EnableAllHovers(true);
         if (handInteractors.Count == 0)
         {

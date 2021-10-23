@@ -78,6 +78,10 @@ public class VRHandInteractor : MonoBehaviour
     private void FixedUpdate()
     {
         tempGripInteractable = Calculate(tempGripInteractable, gripHoveredObjects);
+        if (GrabInteractable)
+        {
+            GrabInteractable.ProcessFixedUpdate(Time.fixedDeltaTime);
+        }
     }
 
 
