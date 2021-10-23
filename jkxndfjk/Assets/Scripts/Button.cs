@@ -7,6 +7,8 @@ using UnityEngine.Events;
 [RequireComponent(typeof(ConfigurableJoint))]
 public class Button : MonoBehaviour
 {
+    public bool debug = false;
+    public KeyCode debugKey;
     public float percent;
     public Vector3 startPos;
     ConfigurableJoint configurableJoint;
@@ -56,9 +58,23 @@ public class Button : MonoBehaviour
         transform.localPosition += Vector3.up * travel;
     }
 
-    // Update is called once per frame
+    private void Update()
+    {
+        if (debug)
+        {
+            if (Input.GetKeyDown(debugKey))
+            {
+                onButtonDown?.Invoke();
+            }
+            if (Input.GetKeyUp(debugKey))
+            {
+                onButtonUp?.Invoke();
+            }
+        }
+    }
     void FixedUpdate()
     {
+        if (debug) return;
         float travelPercent = 1 - ((transform.localPosition.y - startPos.y) / travel);
         percent = travelPercent;
         if (travelPercent > travelPercentActivate && lastState == false)

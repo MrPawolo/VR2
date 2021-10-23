@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class JoyStick : MonoBehaviour
 {
+    public bool debug = false;
     public bool flipX = false;
     public bool flipY = false;
     public bool swapXY = false;
@@ -23,6 +24,23 @@ public class JoyStick : MonoBehaviour
 
     void Update()
     {
+        if (debug)
+        {
+            float hor = Input.GetAxis("Horizontal");
+            float ver = Input.GetAxis("Vertical");
+
+            Vector2 outVec = new Vector2(flipX ? hor : -hor,
+                flipY ? ver : -ver);
+            joy = outVec;
+            if (swapXY)
+            {
+                outVec = new Vector2(outVec.y, outVec.x);
+            }
+
+
+            joyVal.JoyVal(outVec / maxTravel);
+            return;
+        }
         if (joyVal != null)
         {
             Vector3 actPos = transform.localPosition;

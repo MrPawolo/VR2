@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class BallController : MonoBehaviour, IJoyVal
 {
+    public LayerMask layerMask;
     [Range(-1,1)] public float xVal;
     [Range(-1,1)] public float yVal;
     public float torque = 10f;
@@ -98,16 +99,17 @@ public class BallController : MonoBehaviour, IJoyVal
             {
                 scaleProggres -= Time.fixedDeltaTime / scaleTime;
             }
-            float scale = Mathf.Lerp(smallSize, bigSize, scaleProggres);
+            
+            float scale = Mathf.Lerp(smallSize, bigSize, Mathf.SmoothStep(0, 1, scaleProggres));
 
             if (scaleUp && !CanScaleUp(scale)) StopScaling();
 
 
 
-            myRb.mass = Mathf.Lerp(smallMass, bigMass, scaleProggres);
+            myRb.mass = Mathf.Lerp(smallMass, bigMass, Mathf.SmoothStep(0, 1, scaleProggres));
             transform.localScale = scale * Vector3.one;
-            torque = Mathf.Lerp(smallTorque, bigTorque, scaleProggres);
-            maxVel = Mathf.Lerp(smallVel, bigVel, scaleProggres);
+            torque = Mathf.Lerp(smallTorque, bigTorque, Mathf.SmoothStep(0, 1, scaleProggres));
+            maxVel = Mathf.Lerp(smallVel, bigVel, Mathf.SmoothStep(0, 1, scaleProggres));
 
 
         }
@@ -140,7 +142,7 @@ public class BallController : MonoBehaviour, IJoyVal
         for(int i = 0; i < directions.Length; i++)
         {
             //Debug.DrawRay(transform.position, directions[i] * (sphereCollider.radius * predictedScale + 0.02f));
-            if(Physics.Raycast(transform.position, directions[i], sphereCollider.radius * predictedScale + 0.01f))
+            if(Physics.Raycast(transform.position, directions[i], sphereCollider.radius * predictedScale + 0.01f, layerMask, QueryTriggerInteraction.Ignore))
             {
                 resoults[i] = true;
 
