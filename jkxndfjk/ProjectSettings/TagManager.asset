@@ -15,9 +15,9 @@ TagManager:
   - PlayerBody
   - PlayerHand
   - Button
-  - 
-  - 
-  - 
+  - Player
+  - Interact
+  - Pushable
   - 
   - 
   - 
