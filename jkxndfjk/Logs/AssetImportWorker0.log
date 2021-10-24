@@ -718,3 +718,62 @@ Received Import Request.
 Start importing Assets/Models/Machine/Machine.fbx using Guid(aa7713420375f7b4993fa1197ba86656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '901866b1f89388a8461e71131e469f71') in 0.090995 seconds
   Import took 0.098349 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 784.413380 seconds.
+  path: Assets/Models/Machine/Machine.fbx
+  artifactKey: Guid(aa7713420375f7b4993fa1197ba86656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Machine/Machine.fbx using Guid(aa7713420375f7b4993fa1197ba86656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a0ba7fd79a555491c5e36903a244318') in 0.117465 seconds
+  Import took 0.127479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 273.305922 seconds.
+  path: Assets/Models/Machine/Machine.fbx
+  artifactKey: Guid(aa7713420375f7b4993fa1197ba86656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Machine/Machine.fbx using Guid(aa7713420375f7b4993fa1197ba86656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3846ef64fae2b9c5e722fa0add568927') in 0.097242 seconds
+  Import took 0.108404 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015681 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.37 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Chris\Documents\jkxndfjk\jkxndfjk\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Chris\Documents\jkxndfjk\jkxndfjk\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.020 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Unloading 3080 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.1 MB.
+System memory in use after: 142.4 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 3763.
+Total: 4.861500 ms (FindLiveObjects: 0.669000 ms CreateObjectMapping: 0.269300 ms MarkObjects: 3.875000 ms  DeleteObjects: 0.046400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 138.559776 seconds.
+  path: Assets/Models/Machine/Machine.fbx
+  artifactKey: Guid(aa7713420375f7b4993fa1197ba86656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Machine/Machine.fbx using Guid(aa7713420375f7b4993fa1197ba86656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51d7f3845f8704e509d308666ca1f24a') in 0.328141 seconds
+  Import took 0.337697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 127.709223 seconds.
+  path: Assets/Models/Machine/Machine.fbx
+  artifactKey: Guid(aa7713420375f7b4993fa1197ba86656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Machine/Machine.fbx using Guid(aa7713420375f7b4993fa1197ba86656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11570ffd0e6c6b1f85e89df4706cd510') in 0.097161 seconds
+  Import took 0.105483 seconds .
+
