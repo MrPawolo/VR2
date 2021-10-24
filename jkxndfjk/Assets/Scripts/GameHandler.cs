@@ -210,6 +210,7 @@ public class GameHandler : MonoBehaviour
     {
         player.CanMove = false;
         player.ResetPlayer();
+        player.gameObject.SetActive(false);
         UpdateLevel();
         
 
