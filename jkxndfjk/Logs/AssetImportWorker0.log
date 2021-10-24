@@ -702,3 +702,19 @@ Received Import Request.
 Start importing Assets/Models/Machine/Machine.prefab using Guid(59c5d44059c11994abb918ff2964a74b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6351660ef0b5894cb3742b607e9ef420') in 0.014797 seconds
   Import took 0.024296 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 228.983586 seconds.
+  path: Assets/Models/Machine/Machine.fbx
+  artifactKey: Guid(aa7713420375f7b4993fa1197ba86656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Machine/Machine.fbx using Guid(aa7713420375f7b4993fa1197ba86656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '403a3116c01a9b4a4a543166e06bce65') in 0.097415 seconds
+  Import took 0.107079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.056586 seconds.
+  path: Assets/Models/Machine/Machine.fbx
+  artifactKey: Guid(aa7713420375f7b4993fa1197ba86656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Machine/Machine.fbx using Guid(aa7713420375f7b4993fa1197ba86656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '901866b1f89388a8461e71131e469f71') in 0.090995 seconds
+  Import took 0.098349 seconds .
+
