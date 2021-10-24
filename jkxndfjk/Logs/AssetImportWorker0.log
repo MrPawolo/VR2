@@ -1084,3 +1084,19 @@ Received Import Request.
 Start importing Assets/Materials/shaders/GlowEdge.shadergraph using Guid(c4654f4f3998f4245a77843e64d004f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a70d3dc3078717bdaee57c30334d64b') in 0.003419 seconds
   Import took 0.010496 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 223.410612 seconds.
+  path: Assets/Materials/Green.mat
+  artifactKey: Guid(6585dab26fca7db4180ad046c17827d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Green.mat using Guid(6585dab26fca7db4180ad046c17827d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fba73fe7de5c815b908313ac29da786c') in 0.017520 seconds
+  Import took 0.027533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 183.679787 seconds.
+  path: Assets/Models/room.fbx
+  artifactKey: Guid(adb529107032ba34db8cf2f3ee6d9bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/room.fbx using Guid(adb529107032ba34db8cf2f3ee6d9bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3255652f9bed6f6dbe3253dca38237f0') in 0.032884 seconds
+  Import took 0.040516 seconds .
+
