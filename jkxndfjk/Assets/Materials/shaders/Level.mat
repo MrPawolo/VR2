@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Level
   m_Shader: {fileID: -6465566751694194690, guid: 40080862b57ad2942bc5cf1727ba95ae, type: 3}
-  m_ShaderKeywords: 
+  m_ShaderKeywords: BOOLEAN_FD492A22DC314B0ABA36EF95953F2337_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -19,6 +19,22 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - Texture2D_11a29a053add400cb4630072ffd753af:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_aa0ea80197ab4447b2fe8e7c43bba137:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_b21aa98d42534ee4956a04d894af4308:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_c6a8b70fd2b942c6aa0a6f63bd098d41:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -32,10 +48,14 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - BOOLEAN_FD492A22DC314B0ABA36EF95953F2337: 1
     - Vector1_541d4b4082144aef972a0d115c3101e4: 0.08
+    - Vector1_5db132ecd81e4cacbac2e250ebb5f143: 1
     - Vector1_a380880363494f1f9ed6c892f28094ed: -0.02
     - Vector1_c940728031c842e59e69046dc76bf402: 72.8
     - _height: 1
     m_Colors:
     - Color_45b98a34938d40b29d4d89afeb3d8d54: {r: 48.207355, g: 0, b: 63.25359, a: 0}
+    - Vector2_0a91a04436604c70b48a7bcb5d34c05f: {r: 0, g: 1, b: 0, a: 0}
+    - Vector2_6bd4c4e0b9974a659867c35ba542e324: {r: 0, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
