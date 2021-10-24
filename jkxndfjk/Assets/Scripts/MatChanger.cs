@@ -13,12 +13,10 @@ public class MatChanger : MonoBehaviour
         if (state)
         {
             mats[i] = red;
-            Debug.Log("1");
         }
         else
         {
             mats[i] = blue;
-            Debug.Log("2");
         }
         GetComponent<MeshRenderer>().materials = mats;
     }

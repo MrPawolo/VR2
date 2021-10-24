@@ -10,6 +10,7 @@ public enum Hand
 }
 public class VRHandInteractor : MonoBehaviour
 {
+    [SerializeField] Animator animator;
     [SerializeField] protected LayerMask interactableLayerMask;
     [SerializeField] private Hand hand = Hand.Left;
     [SerializeField] VRController controller;
@@ -81,6 +82,10 @@ public class VRHandInteractor : MonoBehaviour
         if (GrabInteractable)
         {
             GrabInteractable.ProcessFixedUpdate(Time.fixedDeltaTime);
+        }
+        if (animator)
+        {
+            animator.SetFloat("grip", controller.GripVal);
         }
     }
 
