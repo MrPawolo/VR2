@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_Level
+  m_Name: Level
   m_Shader: {fileID: -6465566751694194690, guid: 40080862b57ad2942bc5cf1727ba95ae, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -34,8 +34,8 @@ Material:
     m_Floats:
     - Vector1_541d4b4082144aef972a0d115c3101e4: 0.08
     - Vector1_a380880363494f1f9ed6c892f28094ed: -0.02
-    - Vector1_c940728031c842e59e69046dc76bf402: 63.49
+    - Vector1_c940728031c842e59e69046dc76bf402: 72.8
     - _height: 1
     m_Colors:
-    - Color_45b98a34938d40b29d4d89afeb3d8d54: {r: 63.25359, g: 0, b: 25.585052, a: 0}
+    - Color_45b98a34938d40b29d4d89afeb3d8d54: {r: 48.207355, g: 0, b: 63.25359, a: 0}
   m_BuildTextureStacks: []

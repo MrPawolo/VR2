@@ -3,14 +3,27 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class StaticGameController : MonoBehaviour
+public class StaticGameController 
 {
     public static StaticGameController Instance = new StaticGameController();
 
+    /// <summary>
+    /// changing level state to opposite
+    /// </summary>
     public event Action onStateChange;
+    public void ChangeMode() => onStateChange?.Invoke();
 
-    public void ChangeMode()
-    {
-        onStateChange?.Invoke();
-    }
+
+    public event Action onLevelFinished;
+    public void OnLevelFinishedCall() => onLevelFinished?.Invoke();
+    
+    
+    public event Action onSpikesPlayerEnter;
+    public void OnSpikesPlayerEnterCall() => onSpikesPlayerEnter?.Invoke();
+
+    
+    
+    public event Action onLevelStart;
+    public void OnLevelStart() => onLevelStart?.Invoke();
+
 }

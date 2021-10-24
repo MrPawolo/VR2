@@ -1,10 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 
 public class BallController : MonoBehaviour, IJoyVal
 {
+    [Header("OnDeath")]
+    public GameObject deadParticles;
+    public AudioClip deadSound;
+    [Space(30)]
     public LayerMask layerMask;
     [Range(-1,1)] public float xVal;
     [Range(-1,1)] public float yVal;
@@ -14,6 +19,8 @@ public class BallController : MonoBehaviour, IJoyVal
     public float forceStopThreshold = 0.05f;
     public float startMoveThreshold = 0.1f;
     public Transform refTrans;
+    bool canMove = true;
+    public bool CanMove {  get { return canMove; } set { canMove = value; } }
 
     [Header("Scale")]
     public float scaleTime = 0.5f;
@@ -25,13 +32,16 @@ public class BallController : MonoBehaviour, IJoyVal
     public float bigMass = 5;
     public float bigVel = 4f;
     public float bigTorque = 30f;
-    public float scaleProggres = 0;
+     float scaleProggres = 0;
     public bool scaleUp = true;
+
+    public UnityEvent onScaleUp;
+    public UnityEvent onScaleDown;
 
     IEnumerator scaleEnumerator;
     Rigidbody myRb;
     SphereCollider sphereCollider;
-    private void Start()
+    private void Awake()
     {
         myRb = GetComponent<Rigidbody>();
         sphereCollider = GetComponent<SphereCollider>();
@@ -43,19 +53,34 @@ public class BallController : MonoBehaviour, IJoyVal
     }
     private void FixedUpdate()
     {
+        Move();
+    }
+    public void SpawnAfterDeath()
+    {
+        ParticleSystem gameObject = Instantiate(deadParticles, transform.position, transform.rotation).GetComponent<ParticleSystem>();
+        gameObject.transform.SetParent(null);
+        Destroy(gameObject.gameObject, gameObject.main.duration);
+        if (deadSound)
+        {
+            AudioSource.PlayClipAtPoint(deadSound, transform.position);
+        }
+    }
+    private void Move()
+    {
+        if (!canMove) return;
         float magSpeed = new Vector2(xVal, yVal).magnitude;
-         
-        if(Mathf.Abs(magSpeed) > startMoveThreshold)
+
+        if (Mathf.Abs(magSpeed) > startMoveThreshold)
         {
             myRb.constraints = RigidbodyConstraints.None;
             Vector3 velNormalized = new Vector3(xVal, 0, yVal).normalized;
             Vector3 dir = new Vector3(0, refTrans.rotation.eulerAngles.y, 0);
 
-            Vector3 rot = Vector3.Cross(refTrans.up, Quaternion.Euler(dir) * velNormalized ) * torque;
+            Vector3 rot = Vector3.Cross(refTrans.up, Quaternion.Euler(dir) * velNormalized) * torque;
             myRb.angularVelocity = rot;
             myRb.maxAngularVelocity = maxVel * magToVel.Evaluate(magSpeed);
         }
-        else if(Mathf.Abs(magSpeed) < forceStopThreshold)
+        else if (Mathf.Abs(magSpeed) < forceStopThreshold)
         {
             myRb.constraints = RigidbodyConstraints.FreezeRotation;
         }
@@ -70,6 +95,7 @@ public class BallController : MonoBehaviour, IJoyVal
     [ContextMenu("Scale")]
     public void ScalePlayer()
     {
+        if (!canMove) return;
         scaleUp = !scaleUp;
         if (scaleEnumerator != null)
         {
@@ -80,13 +106,48 @@ public class BallController : MonoBehaviour, IJoyVal
     }
     public void StopScaling()
     {
+        if (scaleEnumerator == null) return;
         StopCoroutine(scaleEnumerator);
         scaleEnumerator = null;
+    }
+
+    public void ResetPlayer()
+    {
+        StopScaling();
+        ForceStopPlayer();
+        myRb.mass = Mathf.Lerp(smallMass, bigMass, 0);
+        transform.localScale = Mathf.Lerp(smallSize, bigSize, 0) * Vector3.one;
+        torque = Mathf.Lerp(smallTorque, bigTorque, 0);
+        maxVel = Mathf.Lerp(smallVel, bigVel, 0);
+    }
+
+    void ForceStopPlayer()
+    {
+        canMove = false;
+        xVal = 0;
+        yVal = 0;
+        myRb.velocity = Vector3.zero;
+        myRb.angularVelocity = Vector3.zero;
+    }
+    public void MoveTo(Vector3 wsPos)
+    {
+        ForceStopPlayer();
+        transform.position = wsPos;
+        ForceStopPlayer();
     }
 
     IEnumerator ProcessScale(bool scaleUp)
     {
         float targetScale = scaleUp ? 1 : 0;
+
+        if (scaleUp)
+        {
+            onScaleUp?.Invoke();
+        }
+        else
+        {
+            onScaleDown?.Invoke();
+        }
 
         while (scaleUp ? scaleProggres < targetScale : scaleProggres > targetScale)
         {

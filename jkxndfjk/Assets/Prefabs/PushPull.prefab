@@ -160,7 +160,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   start: {fileID: 7049705089412165537}
   end: {fileID: 7049705091145043221}
-  debuCube: {fileID: 0}
   push: 1
   distanceRelative: 1
   pushForce: 16

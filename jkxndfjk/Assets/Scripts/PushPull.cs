@@ -9,7 +9,6 @@ public class PushPull : MonoBehaviour
     public Transform end;
     float dist;
 
-    public Transform debuCube;
 
     public bool push = true;
     public bool distanceRelative = true;
@@ -21,11 +20,12 @@ public class PushPull : MonoBehaviour
     {
         dist = end.localPosition.z - start.localPosition.z;
         CheckState();
-        StaticGameController.Instance.onStateChange += OnChange;
-
     }
-
-    private void OnDestroy()
+    private void OnEnable()
+    {
+        StaticGameController.Instance.onStateChange += OnChange;
+    }
+    private void OnDisable()
     {
         StaticGameController.Instance.onStateChange -= OnChange;
     }
@@ -73,9 +73,5 @@ public class PushPull : MonoBehaviour
 
             
         }
-    }
-    private void OnDrawGizmos()
-    {
-        
     }
 }
