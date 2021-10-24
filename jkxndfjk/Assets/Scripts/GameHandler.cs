@@ -2,9 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using TMPro;
 
 public class GameHandler : MonoBehaviour
 {
+    public TMP_Text timeText;
+    public TMP_Text livesText;
+    public TMP_Text levelText;
+
+    public bool timeIsRunning = false;
+    float timer;
+    bool gameIsFinished;
+    public bool autoStart = false;
+
+
     public BallController player;
     public Transform levelParent;
     public GameObject[] levelsPrefabs;
@@ -22,7 +33,8 @@ public class GameHandler : MonoBehaviour
     int activeLevelIndex = 0;
     IEnumerator levelLoadingCorutine;
 
-
+    public UnityEvent onPrinterGoUp;
+    public UnityEvent onPrinterGoDown;
 
     public UnityEvent onModeChange;
     [Header("player Lose Life")]
@@ -31,12 +43,33 @@ public class GameHandler : MonoBehaviour
 
 
     [Header("WinLevel")]
+    public UnityEvent onStartLevel;
     public UnityEvent onWinLevel;
+
+    public UnityEvent onPlayerWinGame;
     void Start()
     {
-        SetUp(true);
-        
         printer.position = new Vector3(printer.position.x, up.position.y, printer.position.z);
+        foreach (GameObject go in levelsPrefabs)
+        {
+            go.SetActive(false);
+        }
+        if (autoStart)
+        {
+            StartGame();
+        }
+    }
+    public void StartGame()
+    {
+        SetUp(true);
+    }
+    void UpdateLives()
+    {
+        livesText.text = actLives.ToString();
+    }
+    void UpdateLevel()
+    {
+        levelText.text = level.ToString();
     }
     void SetUp(bool isFirst)
     {
@@ -49,6 +82,10 @@ public class GameHandler : MonoBehaviour
         }
         actLives = startLives;
         level = 0;
+        timer = 0;
+        gameIsFinished = false;
+        timeIsRunning = false;  
+        UpdateLives();
         ReloadOrNextLevelLoad(true);
     }
     private void OnEnable()
@@ -59,18 +96,34 @@ public class GameHandler : MonoBehaviour
         StaticGameController.Instance.onLevelFinished += OnFinishLevel;
         StaticGameController.Instance.onStateChange -= OnModeChange;
         StaticGameController.Instance.onStateChange += OnModeChange;
+        StaticGameController.Instance.onLevelStart -= OnStartLevel;
+        StaticGameController.Instance.onLevelStart += OnStartLevel;
+    }
+    private void Update()
+    {
+        if (timeIsRunning && !gameIsFinished)
+        {
+            timer += Time.deltaTime;
+            float minutes = Mathf.FloorToInt(timer / 60);
+            float seconds = Mathf.FloorToInt(timer % 60);
+            float microseconds = Mathf.FloorToInt((timer % 1) * 1000);
+
+            timeText.text = minutes.ToString() + ":" + seconds.ToString() + ":" + microseconds.ToString();
+        }
     }
     private void OnDisable()
     {
         StaticGameController.Instance.onSpikesPlayerEnter -= OnEnterSpikes;
         StaticGameController.Instance.onLevelFinished -= OnFinishLevel;
         StaticGameController.Instance.onStateChange -= OnModeChange;
+        StaticGameController.Instance.onLevelStart -= OnStartLevel;
     }
     void OnModeChange() => onModeChange?.Invoke();
     void OnEnterSpikes()
     {
         actLives--;
         player.SpawnAfterDeath();
+        UpdateLives();
         if (actLives > 0)
         {
             onPlayerLoseLife?.Invoke();
@@ -84,8 +137,14 @@ public class GameHandler : MonoBehaviour
             this.CallWithDelay(() => SetUp(false), 1);
         }
     }
+    void OnStartLevel()
+    {
+        timeIsRunning = true;
+        onStartLevel?.Invoke();
+    }
     void OnFinishLevel()
     {
+        timeIsRunning = false;
         onWinLevel?.Invoke();
         ReloadOrNextLevelLoad(false);
     }
@@ -107,6 +166,8 @@ public class GameHandler : MonoBehaviour
 
     void OnFinishGame()
     {
+        gameIsFinished = true;
+        onPlayerWinGame?.Invoke();
         Debug.Log("End of levels :3 ");
     }
 
@@ -121,8 +182,11 @@ public class GameHandler : MonoBehaviour
     {
         player.CanMove = false;
         player.ResetPlayer();
+        UpdateLevel();
+        
 
         //move print plane down
+        onPrinterGoDown?.Invoke();
         float dist = up.position.y - down.position.y;
         float t = 0;
         while (t < 1)
@@ -152,6 +216,8 @@ public class GameHandler : MonoBehaviour
             player.MoveTo(GameObject.FindWithTag("Respawn").transform.position); //can Return false if every obiect with this tag is disabled or 
             player.gameObject.SetActive(true);
 
+
+            onPrinterGoUp?.Invoke();
             //move print plane up
             t = 0;
             while (t < 1)
@@ -167,6 +233,8 @@ public class GameHandler : MonoBehaviour
         }
         player.CanMove = true;
         levelLoadingCorutine = null;
+        StaticGameController.Instance.OnLevelStart();
+        
     }
     
 }

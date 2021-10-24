@@ -26,4 +26,7 @@ public class StaticGameController
     public event Action onLevelStart;
     public void OnLevelStart() => onLevelStart?.Invoke();
 
+    public event Action onLevelUnload;
+    public void OnLevelUnload() => onLevelUnload?.Invoke();
+
 }
