@@ -146,7 +146,7 @@ public class GameHandler : MonoBehaviour
     {
         timeIsRunning = false;
         onWinLevel?.Invoke();
-        StaticGameController.Instance.OnLevelFinishedCall();
+        //StaticGameController.Instance.OnLevelFinishedCall();
         ReloadOrNextLevelLoad(false);
     }
     [ContextMenu("Level")]
@@ -169,7 +169,7 @@ public class GameHandler : MonoBehaviour
     {
         gameIsFinished = true;
         onPlayerWinGame?.Invoke();
-        StaticGameController.Instance.OnLevelFinishedCall();
+        //StaticGameController.Instance.OnLevelFinishedCall();
         Debug.Log("End of levels :3 ");
     }
 
