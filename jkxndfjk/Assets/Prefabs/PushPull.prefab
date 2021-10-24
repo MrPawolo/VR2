@@ -250,6 +250,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 4701312065125481424}
+        m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
+        m_MethodName: Stop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 806650352939821975}
+        m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   onPullChange:
     m_PersistentCalls:
       m_Calls:
@@ -281,6 +305,30 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: MatChanger, Assembly-CSharp
         m_MethodName: ChangeToRed
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 4701312065125481424}
+        m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 806650352939821975}
+        m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
+        m_MethodName: Stop
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -465,6 +513,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7089465275920974970, guid: 224ee6c14de627c44b3a4d678c03df1b, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8422924698000272009, guid: 224ee6c14de627c44b3a4d678c03df1b, type: 3}
       propertyPath: lengthInSec
       value: 3
@@ -521,6 +573,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2892277469659501716, guid: 224ee6c14de627c44b3a4d678c03df1b, type: 3}
   m_PrefabInstance: {fileID: 3880509724128727385}
   m_PrefabAsset: {fileID: 0}
+--- !u!198 &4701312065125481424 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 8422924698000272009, guid: 224ee6c14de627c44b3a4d678c03df1b, type: 3}
+  m_PrefabInstance: {fileID: 3880509724128727385}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8860254745910427662
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -528,6 +585,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7049705089614392956}
     m_Modifications:
+    - target: {fileID: -3068711917529824417, guid: 2ac054ae638051049b193e270b1868e2, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1060610811300156879, guid: 2ac054ae638051049b193e270b1868e2, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -586,5 +647,10 @@ GameObject:
 --- !u!4 &8380628632339076545 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1060610811300156879, guid: 2ac054ae638051049b193e270b1868e2, type: 3}
+  m_PrefabInstance: {fileID: 8860254745910427662}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &806650352939821975 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 8197745973638605721, guid: 2ac054ae638051049b193e270b1868e2, type: 3}
   m_PrefabInstance: {fileID: 8860254745910427662}
   m_PrefabAsset: {fileID: 0}

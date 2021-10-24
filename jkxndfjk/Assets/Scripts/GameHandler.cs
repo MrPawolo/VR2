@@ -14,11 +14,13 @@ public class GameHandler : MonoBehaviour
     float timer;
     bool gameIsFinished;
     public bool autoStart = false;
-
+    public bool debugEnter = false;
+    public int debugLevel = 0;
 
     public BallController player;
     public Transform levelParent;
     public GameObject[] levelsPrefabs;
+    public GameObject testLevel;
     public int level = 0;
 
     public int startLives = 5;
@@ -73,6 +75,7 @@ public class GameHandler : MonoBehaviour
     }
     void SetUp(bool isFirst)
     {
+        testLevel.SetActive(false);
         if (isFirst)
         {
             foreach (GameObject go in levelsPrefabs)
@@ -80,8 +83,18 @@ public class GameHandler : MonoBehaviour
                 go.SetActive(false);
             }
         }
+        if (!debugEnter)
+        {
+            
+            level = 0;
+            
+        }
+        else
+        {
+            level = debugLevel;
+        }
+
         actLives = startLives;
-        level = 0;
         timer = 0;
         gameIsFinished = false;
         timeIsRunning = false;  
@@ -169,6 +182,19 @@ public class GameHandler : MonoBehaviour
     {
         gameIsFinished = true;
         onPlayerWinGame?.Invoke();
+
+        testLevel.SetActive(true);
+        player.MoveTo(GameObject.FindWithTag("Respawn").transform.position); //can Return false if every obiect with this tag is disabled or 
+        player.gameObject.SetActive(true);
+        onPrinterGoUp?.Invoke();
+        //move print plane up
+        printer.position = new Vector3(printer.position.x, up.position.y, printer.position.z);
+
+
+        player.CanMove = true;
+
+
+
         //StaticGameController.Instance.OnLevelFinishedCall();
         Debug.Log("End of levels :3 ");
     }

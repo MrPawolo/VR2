@@ -960,12 +960,15 @@ MonoBehaviour:
   livesText: {fileID: 755069523}
   levelText: {fileID: 8639144749095446248}
   timeIsRunning: 0
-  autoStart: 1
+  autoStart: 0
+  debugEnter: 0
+  debugLevel: 1
   player: {fileID: 0}
   levelParent: {fileID: 0}
   levelsPrefabs:
   - {fileID: 0}
   - {fileID: 0}
+  testLevel: {fileID: 0}
   level: 0
   startLives: 5
   actLives: 0

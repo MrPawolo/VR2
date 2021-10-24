@@ -8,6 +8,7 @@ public class ParticleStarter : MonoBehaviour
     void Awake()
     {
         particles = GetComponent<ParticleSystem>();
+        
     }
 
     private void OnEnable()
@@ -22,7 +23,6 @@ public class ParticleStarter : MonoBehaviour
         StaticGameController.Instance.onLevelStart -= Play;
         StaticGameController.Instance.onLevelFinished -= Stop;
     }
-
 
     void Play()
     {

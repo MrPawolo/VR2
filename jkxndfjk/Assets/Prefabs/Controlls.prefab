@@ -2250,7 +2250,7 @@ ConfigurableJoint:
     spring: 0
     damper: 0
   m_LinearLimit:
-    limit: 0.01
+    limit: 0.03
     bounciness: 0
     contactDistance: 0
   m_AngularXLimitSpring:
@@ -2376,7 +2376,7 @@ MonoBehaviour:
   flipX: 1
   flipY: 0
   swapXY: 1
-  maxTravel: 0.01
+  maxTravel: 0.03
   playerBall: {fileID: 0}
   joy: {x: 0, y: 0}
 --- !u!65 &7356178183647065305
