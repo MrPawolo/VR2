@@ -962,7 +962,7 @@ MonoBehaviour:
   timeIsRunning: 0
   autoStart: 0
   debugEnter: 0
-  debugLevel: 1
+  debugLevel: 5
   player: {fileID: 0}
   levelParent: {fileID: 0}
   levelsPrefabs:
