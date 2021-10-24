@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19043.1288; Version 2009; 64bit' Language: 'en' Physical Memory: 16271 MB
+OS: 'Windows 10 Pro; OS build 19043.1288; Version 2009; 64bit' Language: 'en' Physical Memory: 16259 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,738 +11,386 @@ C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Projects/Unity/jkxndfjk/jkxndfjk
+C:/Users/Chris/Documents/jkxndfjk/jkxndfjk
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58333
-Successfully changed project path to: C:/Projects/Unity/jkxndfjk/jkxndfjk
-C:/Projects/Unity/jkxndfjk/jkxndfjk
+56290
+Successfully changed project path to: C:/Users/Chris/Documents/jkxndfjk/jkxndfjk
+C:/Users/Chris/Documents/jkxndfjk/jkxndfjk
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 93.14 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 1.07 ms.
+Refreshing native plugins compatible for Editor in 191.56 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 1.36 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Projects/Unity/jkxndfjk/jkxndfjk/Assets
+[Subsystems] Discovering subsystems at path C:/Users/Chris/Documents/jkxndfjk/jkxndfjk/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 970 (ID=0x13c2)
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2191)
     Vendor:   
-    VRAM:     4043 MB
-    Driver:   27.21.14.5671
+    VRAM:     5991 MB
+    Driver:   30.0.14.9613
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56776
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56360
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003632 seconds.
+Registered in 0.003774 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 80.46 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.14 ms.
+Refreshing native plugins compatible for Editor in 98.53 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.551 seconds
+- Completed reload, in  3.259 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011803 seconds.
+Registered in 0.016217 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 94.53 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.14 ms.
+Refreshing native plugins compatible for Editor in 109.20 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
 [XR] Unable to register input lifecyle provider: [1]
 NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Projects\Unity\jkxndfjk\jkxndfjk\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Projects\Unity\jkxndfjk\jkxndfjk\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Chris\Documents\jkxndfjk\jkxndfjk\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Chris\Documents\jkxndfjk\jkxndfjk\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
 
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.825 seconds
+- Completed reload, in  2.157 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.01 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.21 ms.
-Unloading 3222 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 147.9 MB.
-System memory in use after: 145.6 MB.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
+Refreshing native plugins compatible for Editor in 2.00 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.36 ms.
+Unloading 3224 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.3 MB.
+System memory in use after: 147.5 MB.
 
-Unloading 68 unused Assets to reduce memory usage. Loaded Objects now: 3640.
-Total: 5.756300 ms (FindLiveObjects: 0.539400 ms CreateObjectMapping: 0.420800 ms MarkObjects: 3.348200 ms  DeleteObjects: 1.446500 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Models/Machine/Machine.fbx
-  artifactKey: Guid(aa7713420375f7b4993fa1197ba86656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Machine/Machine.fbx using Guid(aa7713420375f7b4993fa1197ba86656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0a051276a8ba3cb63e15ee481925be8') in 0.497428 seconds
-  Import took 0.505488 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.020249 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.07 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.13 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Projects\Unity\jkxndfjk\jkxndfjk\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Projects\Unity\jkxndfjk\jkxndfjk\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.935 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.12 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.15 ms.
-Unloading 3109 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 147.4 MB.
-System memory in use after: 145.2 MB.
-
-Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 3696.
-Total: 5.769700 ms (FindLiveObjects: 0.415900 ms CreateObjectMapping: 0.319700 ms MarkObjects: 3.498100 ms  DeleteObjects: 1.534300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.191447 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.53 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.15 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Projects\Unity\jkxndfjk\jkxndfjk\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Projects\Unity\jkxndfjk\jkxndfjk\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  5.208 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.20 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
-Unloading 3109 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 147.6 MB.
-System memory in use after: 145.3 MB.
-
-Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 3700.
-Total: 7.505600 ms (FindLiveObjects: 0.520700 ms CreateObjectMapping: 0.358500 ms MarkObjects: 4.888000 ms  DeleteObjects: 1.736000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.041161 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.07 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Projects\Unity\jkxndfjk\jkxndfjk\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Projects\Unity\jkxndfjk\jkxndfjk\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.771 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.11 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
-Unloading 3109 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 147.6 MB.
-System memory in use after: 145.4 MB.
-
-Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 3704.
-Total: 6.141800 ms (FindLiveObjects: 0.549400 ms CreateObjectMapping: 0.301900 ms MarkObjects: 3.468400 ms  DeleteObjects: 1.820500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.013668 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.11 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Projects\Unity\jkxndfjk\jkxndfjk\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Projects\Unity\jkxndfjk\jkxndfjk\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.595 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.10 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Unloading 3109 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 147.6 MB.
-System memory in use after: 145.4 MB.
-
-Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 3708.
-Total: 6.227600 ms (FindLiveObjects: 0.429900 ms CreateObjectMapping: 0.317900 ms MarkObjects: 3.590800 ms  DeleteObjects: 1.887600 ms)
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 3667.
+Total: 4.105700 ms (FindLiveObjects: 0.401500 ms CreateObjectMapping: 0.247400 ms MarkObjects: 3.341700 ms  DeleteObjects: 0.113900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3942.803662 seconds.
+  path: Assets/Models/Machine/MagnetBlock.fbx
+  artifactKey: Guid(a0168d88ee3863d4d9250c62a9807a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Machine/MagnetBlock.fbx using Guid(a0168d88ee3863d4d9250c62a9807a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c8aaae28743a30b60f8fb46b29d310e') in 0.390821 seconds
+  Import took 0.397962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000406 seconds.
   path: Assets/Materials/shaders/Level.mat
   artifactKey: Guid(78f81d0ffd6a4df488e34f49d672e420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/shaders/Level.mat using Guid(78f81d0ffd6a4df488e34f49d672e420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5977b2ea0be941682a0c835e865c55c') in 1.026323 seconds
-  Import took 1.035120 seconds .
+Start importing Assets/Materials/shaders/Level.mat using Guid(78f81d0ffd6a4df488e34f49d672e420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8025a274f1851f4df7a2a2d62ef4c87') in 0.853452 seconds
+  Import took 0.860331 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.177228 seconds.
-  path: Assets/Materials/shaders/Level.shadergraph
-  artifactKey: Guid(40080862b57ad2942bc5cf1727ba95ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/shaders/Level.shadergraph using Guid(40080862b57ad2942bc5cf1727ba95ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17ae6843c50a655c62ccef38b4bc655d') in 0.006398 seconds
-  Import took 0.013249 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.963596 seconds.
-  path: Assets/Materials/shaders/Level.shadergraph
-  artifactKey: Guid(40080862b57ad2942bc5cf1727ba95ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/shaders/Level.shadergraph using Guid(40080862b57ad2942bc5cf1727ba95ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17ae6843c50a655c62ccef38b4bc655d') in 0.007273 seconds
-  Import took 0.016063 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 128.511947 seconds.
-  path: Assets/Materials/kay-vriend-galvanised-input.jpg
-  artifactKey: Guid(0a84bb364f44c254aba2923523220a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/kay-vriend-galvanised-input.jpg using Guid(0a84bb364f44c254aba2923523220a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f60a13d643550dd7a698fde86fc78d4') in 0.048276 seconds
-  Import took 0.054815 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 80.117802 seconds.
-  path: Assets/Materials/New Material.mat
-  artifactKey: Guid(33bf227115a15bf46860adb89fd76e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/New Material.mat using Guid(33bf227115a15bf46860adb89fd76e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05fd2c1c31b1c0ba07f8c8e983c67c43') in 0.832598 seconds
-  Import took 0.841071 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 132.383134 seconds.
-  path: Assets/Scripts/IgnoreCollision.cs
-  artifactKey: Guid(516e162bf02e44f4987868ef352706c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/IgnoreCollision.cs using Guid(516e162bf02e44f4987868ef352706c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deac940eed8e048fac8c12a5a4e832f7') in 0.056289 seconds
-  Import took 0.065224 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.013581 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.28 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.15 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Projects\Unity\jkxndfjk\jkxndfjk\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Projects\Unity\jkxndfjk\jkxndfjk\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.757 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.62 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.15 ms.
-Unloading 3110 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 148.1 MB.
-System memory in use after: 145.8 MB.
-
-Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 3784.
-Total: 5.884100 ms (FindLiveObjects: 0.392400 ms CreateObjectMapping: 0.389600 ms MarkObjects: 3.312900 ms  DeleteObjects: 1.787800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.014523 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.16 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.13 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Projects\Unity\jkxndfjk\jkxndfjk\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Projects\Unity\jkxndfjk\jkxndfjk\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.680 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.16 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.15 ms.
-Unloading 3110 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 148.1 MB.
-System memory in use after: 145.9 MB.
-
-Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 3788.
-Total: 6.034200 ms (FindLiveObjects: 0.397500 ms CreateObjectMapping: 0.304100 ms MarkObjects: 3.616700 ms  DeleteObjects: 1.714500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 400.340215 seconds.
-  path: Assets/Scripts/IgnoreCollision.cs
-  artifactKey: Guid(516e162bf02e44f4987868ef352706c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/IgnoreCollision.cs using Guid(516e162bf02e44f4987868ef352706c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac1226588b206df4c6cb31a65b9ab012') in 0.010203 seconds
-  Import took 0.017435 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011766 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.33 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Projects\Unity\jkxndfjk\jkxndfjk\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Projects\Unity\jkxndfjk\jkxndfjk\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.611 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.17 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.15 ms.
-Unloading 3110 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 148.1 MB.
-System memory in use after: 145.9 MB.
-
-Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 3792.
-Total: 8.066200 ms (FindLiveObjects: 0.342800 ms CreateObjectMapping: 0.147700 ms MarkObjects: 4.950100 ms  DeleteObjects: 2.623900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012242 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.07 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.15 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Projects\Unity\jkxndfjk\jkxndfjk\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Projects\Unity\jkxndfjk\jkxndfjk\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.727 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.32 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.13 ms.
-Unloading 3110 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 148.2 MB.
-System memory in use after: 146.0 MB.
-
-Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 3796.
-Total: 29.239000 ms (FindLiveObjects: 0.499900 ms CreateObjectMapping: 0.425200 ms MarkObjects: 23.343200 ms  DeleteObjects: 4.969000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.013216 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.62 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.30 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Projects\Unity\jkxndfjk\jkxndfjk\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Projects\Unity\jkxndfjk\jkxndfjk\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.221 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.50 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.21 ms.
-Unloading 3110 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 148.2 MB.
-System memory in use after: 146.0 MB.
-
-Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 3800.
-Total: 7.875000 ms (FindLiveObjects: 0.677100 ms CreateObjectMapping: 0.382700 ms MarkObjects: 4.183000 ms  DeleteObjects: 2.630500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010911 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.04 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Projects\Unity\jkxndfjk\jkxndfjk\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Projects\Unity\jkxndfjk\jkxndfjk\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.906 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.14 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.15 ms.
-Unloading 3110 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 148.3 MB.
-System memory in use after: 146.0 MB.
-
-Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 3804.
-Total: 6.854900 ms (FindLiveObjects: 0.686100 ms CreateObjectMapping: 0.349200 ms MarkObjects: 4.044400 ms  DeleteObjects: 1.773900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011351 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.30 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.13 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Projects\Unity\jkxndfjk\jkxndfjk\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Projects\Unity\jkxndfjk\jkxndfjk\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.628 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.10 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Unloading 3110 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 148.3 MB.
-System memory in use after: 146.1 MB.
-
-Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 3808.
-Total: 6.464300 ms (FindLiveObjects: 0.569900 ms CreateObjectMapping: 0.298500 ms MarkObjects: 3.853900 ms  DeleteObjects: 1.740500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012421 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.08 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Projects\Unity\jkxndfjk\jkxndfjk\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Projects\Unity\jkxndfjk\jkxndfjk\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.649 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.60 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.31 ms.
-Unloading 3110 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 148.3 MB.
-System memory in use after: 146.1 MB.
-
-Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 3812.
-Total: 8.470200 ms (FindLiveObjects: 0.468500 ms CreateObjectMapping: 0.555400 ms MarkObjects: 5.437500 ms  DeleteObjects: 2.007000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012795 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.09 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.15 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Projects\Unity\jkxndfjk\jkxndfjk\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Projects\Unity\jkxndfjk\jkxndfjk\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.659 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.25 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
-Unloading 3110 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 148.4 MB.
-System memory in use after: 146.1 MB.
-
-Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 3816.
-Total: 5.922300 ms (FindLiveObjects: 0.441500 ms CreateObjectMapping: 0.275800 ms MarkObjects: 3.408200 ms  DeleteObjects: 1.795400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012694 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.15 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.13 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Projects\Unity\jkxndfjk\jkxndfjk\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Projects\Unity\jkxndfjk\jkxndfjk\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.705 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.62 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.18 ms.
-Unloading 3110 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 148.4 MB.
-System memory in use after: 146.2 MB.
-
-Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 3820.
-Total: 14.087400 ms (FindLiveObjects: 0.507000 ms CreateObjectMapping: 0.322900 ms MarkObjects: 10.853800 ms  DeleteObjects: 2.402100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011765 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.23 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Projects\Unity\jkxndfjk\jkxndfjk\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Projects\Unity\jkxndfjk\jkxndfjk\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.744 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.05 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Unloading 3110 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 148.4 MB.
-System memory in use after: 146.2 MB.
-
-Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 3824.
-Total: 9.080400 ms (FindLiveObjects: 0.570700 ms CreateObjectMapping: 0.335000 ms MarkObjects: 5.895000 ms  DeleteObjects: 2.277000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.015367 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.84 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.17 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Projects\Unity\jkxndfjk\jkxndfjk\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Projects\Unity\jkxndfjk\jkxndfjk\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.974 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.38 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
-Unloading 3110 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 148.5 MB.
-System memory in use after: 146.3 MB.
-
-Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 3828.
-Total: 12.219100 ms (FindLiveObjects: 0.431700 ms CreateObjectMapping: 0.314400 ms MarkObjects: 9.332400 ms  DeleteObjects: 2.138800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.013446 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.13 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Projects\Unity\jkxndfjk\jkxndfjk\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Projects\Unity\jkxndfjk\jkxndfjk\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.521 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.05 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.13 ms.
-Unloading 3110 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 148.5 MB.
-System memory in use after: 146.3 MB.
-
-Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 3832.
-Total: 11.767500 ms (FindLiveObjects: 1.293000 ms CreateObjectMapping: 0.313600 ms MarkObjects: 7.249400 ms  DeleteObjects: 2.908800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.023715 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.88 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.24 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Projects\Unity\jkxndfjk\jkxndfjk\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Projects\Unity\jkxndfjk\jkxndfjk\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.879 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 3.52 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 2.02 ms.
-Unloading 3110 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 148.6 MB.
-System memory in use after: 146.3 MB.
-
-Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 3836.
-Total: 26.233800 ms (FindLiveObjects: 0.584900 ms CreateObjectMapping: 0.520000 ms MarkObjects: 17.923400 ms  DeleteObjects: 7.202700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.016622 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.16 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.14 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Projects\Unity\jkxndfjk\jkxndfjk\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Projects\Unity\jkxndfjk\jkxndfjk\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.008 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.13 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Unloading 3110 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 148.6 MB.
-System memory in use after: 146.4 MB.
-
-Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 3840.
-Total: 6.385900 ms (FindLiveObjects: 0.536000 ms CreateObjectMapping: 0.314800 ms MarkObjects: 3.411200 ms  DeleteObjects: 2.122400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 2754.432158 seconds.
-  path: Assets/Materials/shaders/GlowEdge.shadergraph
-  artifactKey: Guid(2f95f7c09f66bbf4aac8e08d068eae5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/shaders/GlowEdge.shadergraph using Guid(2f95f7c09f66bbf4aac8e08d068eae5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '839665e7c71b1315e95b2d4489f79d4f') in 0.064933 seconds
-  Import took 0.074718 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.293831 seconds.
-  path: Assets/Materials/shaders/GlowEdge.shadergraph
-  artifactKey: Guid(2f95f7c09f66bbf4aac8e08d068eae5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/shaders/GlowEdge.shadergraph using Guid(2f95f7c09f66bbf4aac8e08d068eae5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '839665e7c71b1315e95b2d4489f79d4f') in 0.007605 seconds
-  Import took 0.015507 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 61.897744 seconds.
-  path: Assets/Materials/shaders/Level.shadergraph
-  artifactKey: Guid(40080862b57ad2942bc5cf1727ba95ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/shaders/Level.shadergraph using Guid(40080862b57ad2942bc5cf1727ba95ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff2170fc5306b735d7ce80e3f76ffbe6') in 0.009714 seconds
-  Import took 0.017660 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.879282 seconds.
-  path: Assets/Materials/shaders/Level.shadergraph
-  artifactKey: Guid(40080862b57ad2942bc5cf1727ba95ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/shaders/Level.shadergraph using Guid(40080862b57ad2942bc5cf1727ba95ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff2170fc5306b735d7ce80e3f76ffbe6') in 0.007980 seconds
-  Import took 0.018277 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.312120 seconds.
-  path: Assets/Materials/shaders/Level.mat
-  artifactKey: Guid(78f81d0ffd6a4df488e34f49d672e420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/shaders/Level.mat using Guid(78f81d0ffd6a4df488e34f49d672e420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8025a274f1851f4df7a2a2d62ef4c87') in 0.220211 seconds
-  Import took 0.227982 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/Materials/shaders/Level 1.shadergraph
-  artifactKey: Guid(c4654f4f3998f4245a77843e64d004f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/shaders/Level 1.shadergraph using Guid(c4654f4f3998f4245a77843e64d004f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c93af13f8220d89b35e73aa3c8758ed7') in 0.017110 seconds
-  Import took 0.024809 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.871769 seconds.
-  path: Assets/Materials/shaders/GlowEdge.shadergraph
-  artifactKey: Guid(c4654f4f3998f4245a77843e64d004f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/shaders/GlowEdge.shadergraph using Guid(c4654f4f3998f4245a77843e64d004f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf15b81a4325b6eda0a01a7213e5afe') in 0.014120 seconds
-  Import took 0.027736 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 427.777131 seconds.
-  path: Assets/Materials/shaders/GlowEdge.shadergraph
-  artifactKey: Guid(c4654f4f3998f4245a77843e64d004f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/shaders/GlowEdge.shadergraph using Guid(c4654f4f3998f4245a77843e64d004f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39a1ca9337c9c69b5759b698afda9c76') in 0.009309 seconds
-  Import took 0.017314 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.305484 seconds.
+  Time since last request: 0.000336 seconds.
   path: Assets/Materials/shaders/Shader Graphs_GlowEdge.mat
   artifactKey: Guid(66eafc77b9319d74c9963cfc9d90d709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/shaders/Shader Graphs_GlowEdge.mat using Guid(66eafc77b9319d74c9963cfc9d90d709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a4b158132affb0bbdf6117ee97a155') in 4.407271 seconds
-  Import took 4.422400 seconds .
+Start importing Assets/Materials/shaders/Shader Graphs_GlowEdge.mat using Guid(66eafc77b9319d74c9963cfc9d90d709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a4b158132affb0bbdf6117ee97a155') in 1.155674 seconds
+  Import took 1.163512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Models/Machine/Pole.fbx
+  artifactKey: Guid(1e5d5f8e31b6bd64b9173bf422fef1e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Machine/Pole.fbx using Guid(1e5d5f8e31b6bd64b9173bf422fef1e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0401a2fa502f690dfe4759680de2a575') in 0.023524 seconds
+  Import took 0.030313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Models/Machine/Machine.fbx
+  artifactKey: Guid(aa7713420375f7b4993fa1197ba86656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Machine/Machine.fbx using Guid(aa7713420375f7b4993fa1197ba86656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '557686e36079e1e4f0de004b948d9d15') in 0.103839 seconds
+  Import took 0.112035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/Models/Machine/Machine.prefab
+  artifactKey: Guid(59c5d44059c11994abb918ff2964a74b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Machine/Machine.prefab using Guid(59c5d44059c11994abb918ff2964a74b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0edd1a73f6510a22d8217f9018892a9c') in 0.007683 seconds
+  Import took 0.015250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016791 seconds.
+  path: Assets/Models/Machine/Machine.fbx
+  artifactKey: Guid(aa7713420375f7b4993fa1197ba86656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Machine/Machine.fbx using Guid(aa7713420375f7b4993fa1197ba86656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '557686e36079e1e4f0de004b948d9d15') in 0.099393 seconds
+  Import took 0.107901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.936228 seconds.
+  path: Assets/Models/Machine/MagnetBlock.fbx
+  artifactKey: Guid(a0168d88ee3863d4d9250c62a9807a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Machine/MagnetBlock.fbx using Guid(a0168d88ee3863d4d9250c62a9807a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5203df072968495395340d267a9b04fc') in 0.041647 seconds
+  Import took 0.048306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/Models/Machine/Pole.fbx
+  artifactKey: Guid(1e5d5f8e31b6bd64b9173bf422fef1e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Machine/Pole.fbx using Guid(1e5d5f8e31b6bd64b9173bf422fef1e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa50f477f71b8647c591605f672703ef') in 0.032650 seconds
+  Import took 0.039209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010355 seconds.
+  path: Assets/Models/Machine/Pole.fbx
+  artifactKey: Guid(1e5d5f8e31b6bd64b9173bf422fef1e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Machine/Pole.fbx using Guid(1e5d5f8e31b6bd64b9173bf422fef1e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa50f477f71b8647c591605f672703ef') in 0.032794 seconds
+  Import took 0.040294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.661631 seconds.
+  path: Assets/Models/Machine/Machine.fbx
+  artifactKey: Guid(aa7713420375f7b4993fa1197ba86656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Machine/Machine.fbx using Guid(aa7713420375f7b4993fa1197ba86656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6e0d63b14e3cfc729f6b0e300778b9d') in 0.103917 seconds
+  Import took 0.110998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.450399 seconds.
+  path: Assets/Models/Machine/Materials/Emm.mat
+  artifactKey: Guid(758208067f840c44ab2e8ba3b5cf20d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Machine/Materials/Emm.mat using Guid(758208067f840c44ab2e8ba3b5cf20d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b34440b073e304249ed9800f9bd7703') in 0.021969 seconds
+  Import took 0.029961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/Models/Machine/Materials/MachineBottom.mat
+  artifactKey: Guid(7bb87c25fbde86d4f8f6162efee60c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Machine/Materials/MachineBottom.mat using Guid(7bb87c25fbde86d4f8f6162efee60c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '183f1388d1da09ef49b2c35582a4977e') in 0.021753 seconds
+  Import took 0.030552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Models/Machine/Materials/Extras.mat
+  artifactKey: Guid(48b00f07e55ca7c46bec4de821b92f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Machine/Materials/Extras.mat using Guid(48b00f07e55ca7c46bec4de821b92f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44041c60201f924ade595472a7458991') in 0.018492 seconds
+  Import took 0.029174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Models/Machine/Materials/MachineTop.mat
+  artifactKey: Guid(11dac54066f47f947ad0c2241e1e0906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Machine/Materials/MachineTop.mat using Guid(11dac54066f47f947ad0c2241e1e0906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87071382fcc59726a29771554edae304') in 0.020757 seconds
+  Import took 0.030435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.033802 seconds.
+  path: Assets/Models/Machine/Machine.fbx
+  artifactKey: Guid(aa7713420375f7b4993fa1197ba86656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Machine/Machine.fbx using Guid(aa7713420375f7b4993fa1197ba86656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfe6933d685584e4b5c35e48ea901ea3') in 0.105782 seconds
+  Import took 0.112915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.055114 seconds.
+  path: Assets/Models/Machine/Materials/Coin.mat
+  artifactKey: Guid(df9eb2fd3f9b6ff439a7479c7b5051ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Machine/Materials/Coin.mat using Guid(df9eb2fd3f9b6ff439a7479c7b5051ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f6313267e6c1bcf9cb301b937289726') in 0.017646 seconds
+  Import took 0.026417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.292740 seconds.
+  path: Assets/Materials/kay-vriend-galvanised-input.jpg
+  artifactKey: Guid(0a84bb364f44c254aba2923523220a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/kay-vriend-galvanised-input.jpg using Guid(0a84bb364f44c254aba2923523220a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f60a13d643550dd7a698fde86fc78d4') in 0.054050 seconds
+  Import took 0.061182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/Materials/New Material.mat
+  artifactKey: Guid(33bf227115a15bf46860adb89fd76e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material.mat using Guid(33bf227115a15bf46860adb89fd76e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '735a62894fbaf8893c5172de7c6e8522') in 0.049324 seconds
+  Import took 0.056149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.410317 seconds.
+  path: Assets/Materials/Physics/HighFriction.physicMaterial
+  artifactKey: Guid(6f64f60ee332c1342888750ad6b241de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Physics/HighFriction.physicMaterial using Guid(6f64f60ee332c1342888750ad6b241de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd477cb19772b47213df09ff985f04c35') in 0.012491 seconds
+  Import took 0.019360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Materials/Physics/Slip.physicMaterial
+  artifactKey: Guid(4749f0003cf073343b50d359cd5f3ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Physics/Slip.physicMaterial using Guid(4749f0003cf073343b50d359cd5f3ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c8b9029ba58f9b5341b91ec67631bf') in 0.010172 seconds
+  Import took 0.017898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.115034 seconds.
+  path: Assets/Materials/Coin.mat
+  artifactKey: Guid(29c0ea0643da14a4cae06cc6ea2fca45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Coin.mat using Guid(29c0ea0643da14a4cae06cc6ea2fca45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa99ba0d28baa9566e34779b89bcc9b') in 0.019739 seconds
+  Import took 0.027529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 61.186151 seconds.
+  path: Assets/Models/Machine/Textures/Machine_Extras_AlbedoTransparency.png
+  artifactKey: Guid(ca5f9e8240a0b9e47b33bc20e3873131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Machine/Textures/Machine_Extras_AlbedoTransparency.png using Guid(ca5f9e8240a0b9e47b33bc20e3873131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cc1c1b8ab31f50565f1ccb9ed85469e') in 0.015364 seconds
+  Import took 0.024747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Models/Machine/Textures/Machine_MachineTop_Emission.png
+  artifactKey: Guid(53a41f54e9c639444914463210717bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Machine/Textures/Machine_MachineTop_Emission.png using Guid(53a41f54e9c639444914463210717bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae435072c2c8f3acd557056296d537e9') in 0.013383 seconds
+  Import took 0.019944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Models/Machine/Textures/Machine_Extras_Emission.png
+  artifactKey: Guid(1d6df96d450a33f4499e0ca315c68341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Machine/Textures/Machine_Extras_Emission.png using Guid(1d6df96d450a33f4499e0ca315c68341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da882541dd4cc9f6dcc93e8ba1033f3a') in 0.009856 seconds
+  Import took 0.016496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000406 seconds.
+  path: Assets/Models/Machine/Textures/Machine_Extras_MetallicSmoothness.png
+  artifactKey: Guid(3b506ddab955e3347b750f9bc59dac76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Machine/Textures/Machine_Extras_MetallicSmoothness.png using Guid(3b506ddab955e3347b750f9bc59dac76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '257612d8623e9a062b1d28081415b48e') in 0.015005 seconds
+  Import took 0.021619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Models/Machine/Textures/Machine_MachineBottom_AlbedoTransparency.png
+  artifactKey: Guid(0cf37b0e18fb6904ea3ddb571bf0b846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Machine/Textures/Machine_MachineBottom_AlbedoTransparency.png using Guid(0cf37b0e18fb6904ea3ddb571bf0b846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a378521748f30985ed198368f99c8bf') in 0.017038 seconds
+  Import took 0.024553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/Models/Machine/Textures/Machine_MachineTop_AlbedoTransparency.png
+  artifactKey: Guid(91baf9d253bc4644a9c26d0fe05e41ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Machine/Textures/Machine_MachineTop_AlbedoTransparency.png using Guid(91baf9d253bc4644a9c26d0fe05e41ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e69627cc157aaf944ea8e7213242de9') in 0.018317 seconds
+  Import took 0.025204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Models/Machine/Textures/Machine_Extras_Normal.png
+  artifactKey: Guid(0d43205dacf17eb43b87e41c39ee36bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Machine/Textures/Machine_Extras_Normal.png using Guid(0d43205dacf17eb43b87e41c39ee36bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8c7572a925da6c741c9f386074a8fd9') in 0.018155 seconds
+  Import took 0.025767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/ExampleAssets/Textures/Metal/Metal_MetallicSmoothness.tif
+  artifactKey: Guid(40da0395b61db4448b98bab66d6b549c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Metal/Metal_MetallicSmoothness.tif using Guid(40da0395b61db4448b98bab66d6b549c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b53eead27b196f821b4c1aac947c827') in 0.020263 seconds
+  Import took 0.028578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Models/Machine/Textures/Machine_MachineBottom_Normal.png
+  artifactKey: Guid(0fc114de3e4da2b429240a46deccb38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Machine/Textures/Machine_MachineBottom_Normal.png using Guid(0fc114de3e4da2b429240a46deccb38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84de77b581aded872cb1c6e3c2c4d979') in 0.016396 seconds
+  Import took 0.024841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Models/Machine/Textures/Machine_MachineTop_MetallicSmoothness.png
+  artifactKey: Guid(ccfdfb8591eb8c347bcafd0e49e1b19f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Machine/Textures/Machine_MachineTop_MetallicSmoothness.png using Guid(ccfdfb8591eb8c347bcafd0e49e1b19f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '689a0cc7f5cfd5992b1eadd1d5182f4d') in 0.016700 seconds
+  Import took 0.023766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Models/Machine/Textures/Machine_MachineTop_Normal.png
+  artifactKey: Guid(b22a1af68a4c85545ac9005fc062548a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Machine/Textures/Machine_MachineTop_Normal.png using Guid(b22a1af68a4c85545ac9005fc062548a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '463b6901cced1d8282d827afc78e421d') in 0.017174 seconds
+  Import took 0.024344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Models/Machine/Textures/Machine_MachineBottom_Emission.png
+  artifactKey: Guid(981a5e9dcb12cd74bae9bafd5f754fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Machine/Textures/Machine_MachineBottom_Emission.png using Guid(981a5e9dcb12cd74bae9bafd5f754fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '454e414d0416df8399f85f908bf69a9b') in 0.009778 seconds
+  Import took 0.016516 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.019497 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 4.26 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.22 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Projects\Unity\jkxndfjk\jkxndfjk\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Projects\Unity\jkxndfjk\jkxndfjk\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  6.056 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.76 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
+Unloading 3111 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 149.4 MB.
+System memory in use after: 147.2 MB.
+
+Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 3881.
+Total: 10.339800 ms (FindLiveObjects: 0.588400 ms CreateObjectMapping: 0.366000 ms MarkObjects: 5.069400 ms  DeleteObjects: 4.314300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 324.304256 seconds.
+  path: Assets/Materials/New Material.mat
+  artifactKey: Guid(33bf227115a15bf46860adb89fd76e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material.mat using Guid(33bf227115a15bf46860adb89fd76e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '735a62894fbaf8893c5172de7c6e8522') in 0.311067 seconds
+  Import took 0.325181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007461 seconds.
+  path: Assets/Materials/New Material.mat
+  artifactKey: Guid(33bf227115a15bf46860adb89fd76e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material.mat using Guid(33bf227115a15bf46860adb89fd76e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '735a62894fbaf8893c5172de7c6e8522') in 0.018966 seconds
+  Import took 0.029631 seconds .
 

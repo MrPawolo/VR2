@@ -6238,7 +6238,7 @@
     "m_Name": "useOffset",
     "m_DefaultReferenceName": "BOOLEAN_FD492A22DC314B0ABA36EF95953F2337_ON",
     "m_OverrideReferenceName": "",
-    "m_GeneratePropertyBlock": false,
+    "m_GeneratePropertyBlock": true,
     "m_KeywordType": 0,
     "m_KeywordDefinition": 0,
     "m_KeywordScope": 1,

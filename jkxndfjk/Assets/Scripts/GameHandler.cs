@@ -164,8 +164,8 @@ public class GameHandler : MonoBehaviour
             }
             printer.position = new Vector3(printer.position.x, down.position.y + dist, printer.position.z);
 
-            player.CanMove = true;
         }
+        player.CanMove = true;
         levelLoadingCorutine = null;
     }
     

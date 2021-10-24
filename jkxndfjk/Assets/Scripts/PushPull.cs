@@ -19,22 +19,26 @@ public class PushPull : MonoBehaviour
     private void Start()
     {
         dist = end.localPosition.z - start.localPosition.z;
-        CheckState();
+        
     }
     private void OnEnable()
     {
         StaticGameController.Instance.onStateChange += OnChange;
+        CheckState();
     }
     private void OnDisable()
     {
         StaticGameController.Instance.onStateChange -= OnChange;
     }
+
+    [ContextMenu("asdfgag")]
     void OnChange()
     {
         push = !push;
         CheckState();
     }
 
+    
     void CheckState()
     {
         if (push)
