@@ -445,7 +445,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.756, y: 0.413}
+  m_AnchoredPosition: {x: 0.706, y: 0.413}
   m_SizeDelta: {x: 1500, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &1110164432
@@ -966,6 +966,10 @@ MonoBehaviour:
   player: {fileID: 0}
   levelParent: {fileID: 0}
   levelsPrefabs:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   testLevel: {fileID: 0}
