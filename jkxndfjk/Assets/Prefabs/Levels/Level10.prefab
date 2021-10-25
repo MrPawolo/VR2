@@ -4494,11 +4494,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7049705089614392951, guid: 1498f6d6a842bca48a574a3a955fdadf, type: 3}
       propertyPath: pushForce
-      value: -16
+      value: -20
       objectReference: {fileID: 0}
     - target: {fileID: 7049705089614392951, guid: 1498f6d6a842bca48a574a3a955fdadf, type: 3}
       propertyPath: distanceRelative
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7049705089614392956, guid: 1498f6d6a842bca48a574a3a955fdadf, type: 3}
       propertyPath: m_RootOrder
