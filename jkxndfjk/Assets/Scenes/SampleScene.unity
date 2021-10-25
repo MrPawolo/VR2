@@ -2223,6 +2223,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: VR_Rig
       objectReference: {fileID: 0}
+    - target: {fileID: 3343439854302685953, guid: 6c8824a27bce4ba4a95d47d1beb8e16b, type: 3}
+      propertyPath: loadPoseIndex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6365260878562986809, guid: 6c8824a27bce4ba4a95d47d1beb8e16b, type: 3}
+      propertyPath: loadPoseIndex
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6c8824a27bce4ba4a95d47d1beb8e16b, type: 3}
 --- !u!1 &1956461359958014170 stripped
