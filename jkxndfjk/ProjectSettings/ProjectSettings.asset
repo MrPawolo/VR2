@@ -12,7 +12,7 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
+  companyName: PawelChris
   productName: MagneBall
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -130,6 +130,7 @@ PlayerSettings:
   bundleVersion: 0.1
   preloadedAssets:
   - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 11400000, guid: 826cec7d008294540b0923bad7cbd06b, type: 2}
   - {fileID: -8489235910775630426, guid: 712a433fb39eeb14f94a2014cb4fa4ad, type: 2}
   - {fileID: 0}
@@ -151,6 +152,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
+    Android: com.PawelChris.MagneBall
     Standalone: com.DefaultCompany.MagneBall
   buildNumber:
     Standalone: 0

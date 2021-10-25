@@ -554,3 +554,39 @@ Received Import Request.
 Start importing Assets/Audio/Songs/Blinding Lights [8 Bit Tribute to The Weeknd] - 8 Bit Universe.mp3 using Guid(b15c75e64a631344982128ba9f00829e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f33d049dbfcca9276012e67b8358afe') in 0.049966 seconds
   Import took 0.057286 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 60.595608 seconds.
+  path: Assets/Settings/ForwardRenderer.asset
+  artifactKey: Guid(4a8e21d5c33334b11b34a596161b9360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/ForwardRenderer.asset using Guid(4a8e21d5c33334b11b34a596161b9360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32d54b016f01856ef8dc4b9deaeeec24') in 0.014796 seconds
+  Import took 0.023863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.521110 seconds.
+  path: Assets/Prefabs/Boombox.prefab
+  artifactKey: Guid(32488febe7d374b499d624503ba50fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boombox.prefab using Guid(32488febe7d374b499d624503ba50fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc44afcf1c73bc2f3a2b0b0a4322807d') in 0.384261 seconds
+  Import took 0.392936 seconds .
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 13.52 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.1 MB.
+System memory in use after: 135.3 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3856.
+Total: 6.228400 ms (FindLiveObjects: 0.480600 ms CreateObjectMapping: 0.235700 ms MarkObjects: 5.473400 ms  DeleteObjects: 0.036900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 429.425426 seconds.
+  path: Assets/Prefabs/Levels.prefab
+  artifactKey: Guid(7e3515183de95114a97a136dfe865a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels.prefab using Guid(7e3515183de95114a97a136dfe865a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a6c4b3927f1437871dea043e9de3bb') in 0.486625 seconds
+  Import took 0.542613 seconds .
+
