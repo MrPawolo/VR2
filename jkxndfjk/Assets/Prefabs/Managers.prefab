@@ -981,6 +981,8 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   testLevel: {fileID: 0}
   level: 0
   startLives: 5
