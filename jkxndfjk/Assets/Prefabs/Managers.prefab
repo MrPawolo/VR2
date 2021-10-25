@@ -962,10 +962,13 @@ MonoBehaviour:
   timeIsRunning: 0
   autoStart: 0
   debugEnter: 0
-  debugLevel: 11
+  debugLevel: 9
   player: {fileID: 0}
   levelParent: {fileID: 0}
   levelsPrefabs:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
@@ -1081,7 +1084,19 @@ MonoBehaviour:
         m_CallState: 2
   onPlayerWinGame:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8315715768265025944}
+        m_TargetAssemblyTypeName: SpawnAudtioSource, Assembly-CSharp
+        m_MethodName: PlayClipAtPoint
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: c99aaea20baac46418eaaa8019c39983, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &8315715768265025944
 MonoBehaviour:
   m_ObjectHideFlags: 0

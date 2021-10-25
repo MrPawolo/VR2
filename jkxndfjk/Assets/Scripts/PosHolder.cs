@@ -18,7 +18,7 @@ public class PosHolder : MonoBehaviour
         if(poses.Length > loadPoseIndex)
         {
             transform.localPosition = poses[loadPoseIndex].pos;
-            transform.localRotation = Quaternion.Euler(poses[loadPoseIndex].pos);
+            transform.localRotation = Quaternion.Euler(poses[loadPoseIndex].rot);
         }
     }
 
