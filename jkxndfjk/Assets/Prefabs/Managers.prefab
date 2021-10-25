@@ -962,10 +962,16 @@ MonoBehaviour:
   timeIsRunning: 0
   autoStart: 0
   debugEnter: 0
-  debugLevel: 5
+  debugLevel: 11
   player: {fileID: 0}
   levelParent: {fileID: 0}
   levelsPrefabs:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}

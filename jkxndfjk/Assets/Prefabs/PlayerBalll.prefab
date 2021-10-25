@@ -135,7 +135,7 @@ MonoBehaviour:
     m_Bits: 4294967295
   xVal: 0
   yVal: 0
-  torque: 10
+  torque: 14
   maxVel: 10
   magToVel:
     serializedVersion: 2
@@ -168,11 +168,11 @@ MonoBehaviour:
   smallSize: 0.09
   smallMass: 1
   smallVel: 10
-  smallTorque: 10
+  smallTorque: 14
   bigSize: 0.19
-  bigMass: 10
+  bigMass: 12
   bigVel: 4
-  bigTorque: 30
+  bigTorque: 40
   scaleUp: 0
   onScaleUp:
     m_PersistentCalls:

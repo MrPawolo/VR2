@@ -2334,7 +2334,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverable: 1
-  distanceDetach: 0.2
+  distanceDetach: 0.4
   hoverWeight: 1
   onAttachBegin:
     m_PersistentCalls:
